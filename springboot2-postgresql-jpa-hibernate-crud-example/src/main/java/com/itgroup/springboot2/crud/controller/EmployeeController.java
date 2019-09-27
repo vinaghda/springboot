@@ -23,7 +23,7 @@ import com.itgroup.springboot2.crud.model.Employee;
 import com.itgroup.springboot2.crud.repository.EmployeeRepository;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:4200"})
+@CrossOrigin(origins = {"*"})
 @RequestMapping("/api/v1")
 public class EmployeeController {
     @Autowired
